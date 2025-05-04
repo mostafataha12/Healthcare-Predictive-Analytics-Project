@@ -38,10 +38,10 @@ A hospital uploads patient lab data and medical history. The system analyzes thi
 | Name             | Role                    | GitHub Profile             |
 |------------------|--------------------------|----------------------------|
 | Mostafa Mohamed Taha |     | [GitHubLink1](#)           |
-| [Member 2 Name]   |            | [GitHubLink2](#)           |
-| [Member 3 Name]   |         | [GitHubLink3](#)           |
-| [Member 4 Name]   |        | [GitHubLink4](#)           |
-| [Member 5 Name]   |        | [GitHubLink5](#)           |
+| Osama Walid Mohammed   |            | [GitHubLink2](#)           |
+|  Ali Jamal Ali Ahmed  |         | [GitHubLink3](#)           |
+| Ahmed Mohammed Al-Tabbal   |        | [GitHubLink4](#)           |
+| Khaeled Ali   |        | [GitHubLink5](#)           |
 
 ## Screenshots
 
