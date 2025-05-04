@@ -37,11 +37,11 @@ A hospital uploads patient lab data and medical history. The system analyzes thi
 
 | Name             | Role                    | GitHub Profile             |
 |------------------|--------------------------|----------------------------|
-| Mostafa Mohamed Taha | Team Lead / Developer    | [GitHubLink1](#)           |
-| [Member 2 Name]   | Data Scientist           | [GitHubLink2](#)           |
-| [Member 3 Name]   | Backend Developer        | [GitHubLink3](#)           |
-| [Member 4 Name]   | Frontend Developer       | [GitHubLink4](#)           |
-| [Member 5 Name]   | Documentation / QA       | [GitHubLink5](#)           |
+| Mostafa Mohamed Taha |     | [GitHubLink1](#)           |
+| [Member 2 Name]   |            | [GitHubLink2](#)           |
+| [Member 3 Name]   |         | [GitHubLink3](#)           |
+| [Member 4 Name]   |        | [GitHubLink4](#)           |
+| [Member 5 Name]   |        | [GitHubLink5](#)           |
 
 ## Screenshots
 
