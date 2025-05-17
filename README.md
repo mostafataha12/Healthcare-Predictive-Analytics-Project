@@ -1,59 +1,92 @@
-# Healthcare Predictive Analytics Project
+# Heart Disease Prediction System
 
 ## Overview
+A modern web application that uses machine learning to predict heart disease risk based on various health factors. The system provides personalized risk assessments and health recommendations.
 
-The **Healthcare Predictive Analytics Project** is designed to enhance patient care through data-driven insights. By applying machine learning models to historical healthcare data, our system predicts potential health risks, enabling early intervention and improved medical decision-making.
+![Homepage Screenshot](screenshots/homepage.png)
 
 ## Features
-
-- Predictive modeling for diseases (e.g., diabetes, heart disease)
-- Risk scoring based on patient records
-- Clean and interactive data dashboards
-- Modular codebase for easy integration
-- Scalable and secure analytics pipeline
-
-## Technologies Used
-
-- Programming Language: Python  
-- Data Analysis: Pandas, NumPy  
-- Machine Learning: Scikit-learn, TensorFlow / PyTorch  
-- Visualization: Matplotlib, Seaborn, Plotly  
-- Web Interface (optional): Streamlit or Flask  
-- Database (optional): PostgreSQL or MongoDB
-
-## How It Works
-
-1. Load patient data (CSV or from database)
-2. Preprocess and clean data
-3. Apply trained ML models
-4. Display predictions and analytics dashboard
-5. Generate reports for healthcare providers
-
-## Example Use Case
-
-A hospital uploads patient lab data and medical history. The system analyzes this data and flags individuals at high risk of diabetes within the next 12 months, allowing doctors to prioritize follow-up care.
-
-## Team Members
-
-| Name             | Role                    | GitHub Profile             |
-|------------------|--------------------------|----------------------------|
-| Mostafa Mohamed Taha |     | [GitHubLink1](#)           |
-| Osama Walid Mohammed   |            | [GitHubLink2](#)           |
-|  Ali Jamal Ali Ahmed  |         | [GitHubLink3](#)           |
-| Ahmed Mohammed Al-Tabbal   |        | [GitHubLink4](#)           |
-| Khaeled Ali   |        | [GitHubLink5](#)           |
+- **User-friendly Interface**: Intuitive design for easy data entry and navigation
+- **Comprehensive Analysis**: Evaluates 20+ health metrics to generate accurate predictions
+- **Real-time Results**: Instant risk assessment with percentage probability
+- **Visual Representation**: Clear visualization of risk factors and impact levels
+- **Personalized Recommendations**: Custom health suggestions based on individual results
+- **Responsive Design**: Optimized experience across desktop and mobile devices
 
 ## Screenshots
 
-*(Add screenshots of the dashboard, prediction results, etc.)*
+### Home Page
+![Home Page](screenshots/home.png)
+*The landing page with system introduction and navigation*
 
-## License
+### Prediction Form
+![Prediction Form](screenshots/prediction-form.png)
+*The data entry form for health information*
 
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute it with attribution.
+### Results Page
+![Results Page](screenshots/results.png)
+*Detailed prediction results with risk assessment and recommendations*
 
-## Contact
+### About Page
+![About Page](screenshots/about.png)
+*Information about the system, how it works, and disclaimer*
 
-For questions, feedback, or collaboration opportunities, please contact us via GitHub or email.
+## Health Factors Analyzed
+- **Demographic Factors**: Age, gender, BMI
+- **Vital Measurements**: Blood pressure, cholesterol, triglyceride levels, fasting blood sugar, CRP level
+- **Lifestyle Factors**: Exercise habits, smoking status, alcohol consumption, stress level, sleep patterns
+- **Medical History**: Family history of heart disease, diabetes, high blood pressure, cholesterol levels
 
----
+## Technical Details
+- **Backend**: Flask web framework with Python
+- **Machine Learning**: Gradient Boosting algorithm from scikit-learn
+- **Frontend**: HTML5, CSS3 with responsive design principles
+- **Data Processing**: NumPy, Pandas for data manipulation
+- **Visualization**: Custom visualization components for risk representation
 
+## Project Structure
+```
+│
+├── app.py                   # Main Flask application
+├── templates/               # HTML templates
+│   ├── index.html           # Home page
+│   ├── predict.html         # Prediction form
+│   ├── result.html          # Results display
+│   └── about.html           # About page
+├── static/                  # Static assets (CSS, JS, images)
+├── models/                  # Trained machine learning models
+├── screenshots/             # Application screenshots
+└── requirements.txt         # Dependencies
+```
+
+## Setup Instructions
+1. Clone this repository
+2. Create a virtual environment:
+   ```
+   python -m venv healthcare_env
+   ```
+3. Activate the environment:
+   - Windows: `healthcare_env\Scripts\activate`
+   - Mac/Linux: `source healthcare_env/bin/activate`
+4. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+5. Run the application:
+   ```
+   python app.py
+   ```
+6. Access the web interface at `http://localhost:5000`
+
+## Creating Screenshots
+To add the screenshots referenced in this README:
+1. Create a `screenshots` directory in the project root
+2. Take screenshots of each page of the running application
+3. Save them with the following names:
+   - `home.png`
+   - `prediction-form.png`
+   - `results.png`
+   - `about.png`
+
+## Important Disclaimer
+**This system is designed for educational and informational purposes only.** It is not intended to replace professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider regarding any medical conditions or concerns.
