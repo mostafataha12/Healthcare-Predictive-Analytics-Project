@@ -24,11 +24,19 @@ A modern web application that uses machine learning to predict heart disease ris
 *The data entry form for health information*
 
 ### Results Page
-![image](https://github.com/user-attachments/assets/eb542bf6-97f4-4a5f-b042-3b12a1e7f60c)
+
+**Hight Risk**
+
+![image](https://github.com/user-attachments/assets/817e58ed-ed09-4d94-abe1-82770b59bfcc)
+
+**Low Risk**
+
+![image](https://github.com/user-attachments/assets/ca96e452-cc99-4e09-8cb8-c21d15bdebff)
+
 *Detailed prediction results with risk assessment and recommendations*
 
 ### About Page
-![image](https://github.com/user-attachments/assets/11ef71a2-3c3a-4982-9b5a-0999dcf959fe)
+![image](https://github.com/user-attachments/assets/f231c8c2-3b37-4488-a5bb-3c2a0897a2bd)
 *Information about the system, how it works, and disclaimer*
 
 ## Health Factors Analyzed
